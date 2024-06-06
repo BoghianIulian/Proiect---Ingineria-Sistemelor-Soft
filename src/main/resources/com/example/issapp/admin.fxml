@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="754.0" style="-fx-background-color: #4065FC;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.issapp.AdminController">
+    <children>
+        <Label alignment="CENTER" layoutX="260.0" layoutY="30.0" prefHeight="35.0" prefWidth="273.0" text="Account Management">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="128.0" layoutY="78.0" prefHeight="18.0" prefWidth="121.0" text="List of all accounts">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="411.0" layoutY="126.0" text="Username" />
+        <Label alignment="CENTER" layoutX="411.0" layoutY="183.0" prefHeight="18.0" prefWidth="52.0" text="Password" />
+        <Label alignment="CENTER" layoutX="411.0" layoutY="231.0" prefHeight="26.0" prefWidth="68.0" text="cnp" />
+        <TextField fx:id="userTxt" layoutX="499.0" layoutY="122.0" prefHeight="26.0" prefWidth="191.0" />
+        <TextField fx:id="psswdText" layoutX="499.0" layoutY="179.0" prefHeight="26.0" prefWidth="191.0" />
+        <TextField fx:id="cnpText" layoutX="499.0" layoutY="229.0" prefHeight="26.0" prefWidth="191.0" />
+        <Button fx:id="addAcc" layoutX="434.0" layoutY="364.0" mnemonicParsing="false" onAction="#addAccount" prefHeight="26.0" prefWidth="110.0" text="Add account" />
+        <Button layoutX="568.0" layoutY="364.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" text="Update account" />
+        <Button layoutX="489.0" layoutY="408.0" mnemonicParsing="false" onAction="#deleteAcc" prefHeight="26.0" prefWidth="122.0" text="Delete account" />
+        <TableView fx:id="table" layoutX="14.0" layoutY="105.0" prefHeight="347.0" prefWidth="350.0">
+            <columns>
+                <TableColumn fx:id="user" prefWidth="108.80005168914795" text="username" />
+                <TableColumn fx:id="psswd" prefWidth="96.00006103515625" text="password" />
+                <TableColumn fx:id="cnp" prefWidth="143.19997253417966" text="cnp" />
+            </columns>
+        </TableView>
+      <Button fx:id="logoutBut" layoutX="523.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+      <Button layoutX="62.0" layoutY="469.0" mnemonicParsing="false" onAction="#viewAccounts" text="See acounts" />
+      <RadioButton fx:id="adminRadButton" layoutX="422.0" layoutY="279.0" mnemonicParsing="false" text="Admin" />
+      <RadioButton fx:id="specRadButton" layoutX="422.0" layoutY="310.0" mnemonicParsing="false" text="Spectator" />
+      <Button fx:id="seatsButon" layoutX="223.0" layoutY="469.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" onAction="#seatsManagement" text="See seats" />
+    </children>
+</AnchorPane>

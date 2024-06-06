@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.issapp.SeatsController">
+
+    <GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml">
+        <columnConstraints>
+            <!-- Define coloanele -->
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         <ColumnConstraints />
+        </columnConstraints>
+        <rowConstraints>
+            <!-- Define rândurile -->
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+        </rowConstraints>
+
+        <!-- Locuri în sală -->
+        <!-- Rândul 1 -->
+        <Button fx:id="button1" text="Loc 1" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Button fx:id="button2" text="Loc 2" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Button fx:id="button3" text="Loc 3" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <Button fx:id="button4" text="Loc 4" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <Button fx:id="button5" text="Loc 5" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+        <!-- Adaugă locurile pentru primul rând, începând de la stânga -->
+
+        <!-- Spațiu liber pentru acces -->
+        <Button GridPane.columnIndex="5" GridPane.rowIndex="0" />
+        <Button GridPane.columnIndex="6" GridPane.rowIndex="0" />
+
+        <!-- Rândul 2 -->
+        <Button fx:id="button6" text="Loc 6" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+        <Button fx:id="button7" text="Loc 7" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+        <Button fx:id="button8" text="Loc 8" GridPane.columnIndex="9" GridPane.rowIndex="0" />
+        <Button fx:id="button9" text="Loc 9" GridPane.columnIndex="10" GridPane.rowIndex="0" />
+        <Button fx:id="button10" text="Loc 10" GridPane.columnIndex="11" GridPane.rowIndex="0" />
+
+        <Button fx:id="button11" text="Loc 11" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Button fx:id="button12" text="Loc 12" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button fx:id="button13" text="Loc 13" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Button fx:id="button14" text="Loc 14" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Button fx:id="button15" text="Loc 15" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <!-- Adaugă locurile pentru primul rând, începând de la stânga -->
+
+        <!-- Spațiu liber pentru acces -->
+        <Button GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <Button GridPane.columnIndex="6" GridPane.rowIndex="1" />
+
+        <!-- Rândul 2 -->
+        <Button fx:id="button16" text="Loc 16" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+        <Button fx:id="button17" text="Loc 17" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+        <Button fx:id="button18" text="Loc 18" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+        <Button fx:id="button19" text="Loc 19" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+        <Button fx:id="button20" text="Loc 20" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+
+        <Button fx:id="button21" text="Loc 21" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Button fx:id="button22" text="Loc 22" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button fx:id="button23" text="Loc 23" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button fx:id="button24" text="Loc 24" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Button fx:id="button25" text="Loc 25" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <!-- Adaugă locurile pentru primul rând, începând de la stânga -->
+
+        <!-- Spațiu liber pentru acces -->
+        <Button GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Button GridPane.columnIndex="6" GridPane.rowIndex="2" />
+
+        <!-- Rândul 2 -->
+        <Button fx:id="button26" text="Loc 26" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+        <Button fx:id="button27" text="Loc 27" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+        <Button fx:id="button28" text="Loc 28" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+        <Button fx:id="button29" text="Loc 29" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+        <Button fx:id="button30" text="Loc 30" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+
+
+        <Button fx:id="button31" text="Loc 31" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Button fx:id="button32" text="Loc 32" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button fx:id="button33" text="Loc 33" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Button fx:id="button34" text="Loc 34" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Button fx:id="button35" text="Loc 35" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <!-- Adaugă locurile pentru primul rând, începând de la stânga -->
+
+        <!-- Spațiu liber pentru acces -->
+        <Button GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Button GridPane.columnIndex="6" GridPane.rowIndex="3" />
+
+        <!-- Rândul 2 -->
+        <Button fx:id="button36" text="Loc 36" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+        <Button fx:id="button37" text="Loc 37" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+        <Button fx:id="button38" text="Loc 38" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+        <Button fx:id="button39" text="Loc 39" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+        <Button fx:id="button40" text="Loc 40" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+
+        <Button fx:id="button41" text="Loc 41" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Button fx:id="button42" text="Loc 42" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Button fx:id="button43" text="Loc 43" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Button fx:id="button44" text="Loc 44" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Button fx:id="button45" text="Loc 45" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <!-- Adaugă locurile pentru primul rând, începând de la stânga -->
+
+        <!-- Spațiu liber pentru acces -->
+        <Button GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Button GridPane.columnIndex="6" GridPane.rowIndex="4" />
+
+        <!-- Rândul 2 -->
+        <Button fx:id="button46" text="Loc 46" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+        <Button fx:id="button47" text="Loc 47" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+        <Button fx:id="button48" text="Loc 48" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+        <Button fx:id="button49" text="Loc 49" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+        <Button fx:id="button50" text="Loc 50" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+
+    </GridPane>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#060606" height="123.0" layoutX="173.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+   <Label layoutX="306.0" layoutY="289.0" prefHeight="37.0" prefWidth="88.0" text="Scene" textFill="aliceblue" />
+   <Button fx:id="backButton" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleBack" text="Back" />
+   <Button fx:id="release" layoutX="14.0" layoutY="234.0" mnemonicParsing="false" onAction="#releaseSeats" text="Release the seats" />
+
+
+
+</AnchorPane>

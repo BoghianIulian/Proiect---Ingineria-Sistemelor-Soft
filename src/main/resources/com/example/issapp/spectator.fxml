@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="753.0" style="-fx-background-color: #4dfc40;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.issapp.SpecController">
+    <children>
+        <Label alignment="CENTER" layoutX="260.0" layoutY="30.0" prefHeight="35.0" prefWidth="273.0" text="Seats for the show">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="101.0" layoutY="78.0" prefHeight="20.0" prefWidth="200.0" text="List of all available seats">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="411.0" layoutY="126.0" text="numar" />
+        <Label alignment="CENTER" layoutX="411.0" layoutY="183.0" prefHeight="18.0" prefWidth="52.0" text="rand" />
+        <TextField fx:id="nrTxt" layoutX="499.0" layoutY="122.0" prefHeight="26.0" prefWidth="191.0" />
+        <TextField fx:id="randTxt" layoutX="499.0" layoutY="179.0" prefHeight="26.0" prefWidth="191.0" />
+        <Button layoutX="418.0" layoutY="227.0" mnemonicParsing="false" onAction="#addSeat" prefHeight="26.0" prefWidth="110.0" text="Add seat" />
+        <Button layoutX="578.0" layoutY="227.0" mnemonicParsing="false" onAction="#removeSeat" prefHeight="26.0" prefWidth="122.0" text="Delete seat" />
+        <TableView fx:id="table" layoutX="14.0" layoutY="105.0" prefHeight="347.0" prefWidth="350.0">
+            <columns>
+                <TableColumn fx:id="rand" prefWidth="108.80005168914795" text="rand" />
+                <TableColumn fx:id="numar" prefWidth="96.00006103515625" text="numar" />
+                <TableColumn fx:id="pret" prefWidth="143.19997253417966" text="pret" />
+            </columns>
+        </TableView>
+        <Button fx:id="logoutBut" layoutX="162.0" layoutY="460.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+      <Button layoutX="301.0" layoutY="460.0" mnemonicParsing="false" onAction="#viewSeats" text="view rez" />
+      <TableView fx:id="table_rez" layoutX="437.0" layoutY="340.0" prefHeight="207.0" prefWidth="228.0">
+        <columns>
+          <TableColumn fx:id="rand_rez" prefWidth="75.0" text="rand" />
+          <TableColumn fx:id="numar_rez" prefWidth="75.0" text="numar" />
+            <TableColumn fx:id="pret_rez" prefWidth="75.0" text="pret" />
+        </columns>
+      </TableView>
+      <Button layoutX="40.0" layoutY="460.0" mnemonicParsing="false" onAction="#viewRez" text="view seats" />
+      <Button layoutX="486.0" layoutY="296.0" mnemonicParsing="false" onAction="#createRez" text="Add reservation" />
+      <TextField fx:id="userTxt" layoutX="518.0" layoutY="266.0" />
+      <Label layoutX="423.0" layoutY="270.0" text="nume" />
+    </children>
+</AnchorPane>
